@@ -45,7 +45,9 @@ Create products by entering their name, category, purchase price, sale price and
 New products start with **zero stock**. Stock increases through the purchase operation.
 
 <img width="1010" height="554" alt="image" src="https://github.com/user-attachments/assets/1349c061-21e5-444a-bade-ac7a83dfb0a1" />
-                Add Product window showing fields for name, category, buy price, sell price and size.
+<p align="center">
+  <em>Add Product window showing fields for name, category, buy price, sell price and size</em>
+</p>
 
 ### 2. Edit Products
 
@@ -54,17 +56,26 @@ Update a product's name, purchase price and size.
 The category and sale price remain fixed after creation, following the assignment's business rules.
 
 <img width="1014" height="465" alt="image" src="https://github.com/user-attachments/assets/c10fbe24-e5e4-46d2-8c64-ae05fcf41467" />
-
+<p align="center">
+  <em>Edit Product window with sale price and category disabled</em>
+</p>
 
 ### 3. Delete Products
 
 Products can be deleted only when their stock is zero. A confirmation dialog helps prevent accidental deletion.
 
 <img width="497" height="231" alt="image" src="https://github.com/user-attachments/assets/a2e5a0e0-43c9-4a5b-b1ce-135747c8c51d" />
-
+<p align="center">
+  <em>Confirmation dialog asking the user to
+confirm the deletion of the selected product</em>
+</p>
 
 <img width="467" height="226" alt="image" src="https://github.com/user-attachments/assets/eb2e1139-dd20-490c-96d9-48a82f22b871" />
-
+<p align="center">
+  <em>Message shown after the product is
+deleted successfully
+</em>
+</p>
 
 ### 4. Purchase Stock
 

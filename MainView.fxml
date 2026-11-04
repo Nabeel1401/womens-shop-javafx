@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+
+<BorderPane xmlns:fx="http://javafx.com/fxml" fx:controller="womenshop.controller.MainController">
+    <top>
+        <Label text="Women's Shop Management System"
+               style="-fx-font-size: 22px; -fx-font-weight: bold; -fx-padding: 15 0 15 0;"/>
+    </top>
+
+    <center>
+        <VBox spacing="10">
+            <padding>
+                <Insets top="15" right="15" bottom="15" left="15"/>
+            </padding>
+
+            <HBox spacing="10">
+                <Label text="Filter by Category:"/>
+                <ComboBox fx:id="categoryFilter" prefWidth="150"/>
+            </HBox>
+
+            <TableView fx:id="productTable" prefHeight="400">
+                <columns>
+                    <TableColumn fx:id="colID" text="ID" prefWidth="60"/>
+                    <TableColumn fx:id="colName" text="Name" prefWidth="150"/>
+                    <TableColumn fx:id="colCategory" text="Category" prefWidth="100"/>
+                    <TableColumn fx:id="colBuy" text="Buy Price" prefWidth="100"/>
+                    <TableColumn fx:id="colSell" text="Sell Price" prefWidth="100"/>
+                    <TableColumn fx:id="colDiscount" text="Discount Price" prefWidth="120"/>
+                    <TableColumn fx:id="colSize" text="Size" prefWidth="80"/>
+                    <TableColumn fx:id="colStock" text="Stock" prefWidth="80"/>
+                </columns>
+            </TableView>
+
+            <HBox spacing="10" alignment="CENTER">
+                <Button text="Add" onAction="#onAdd"/>
+                <Button text="Edit" onAction="#onEdit"/>
+                <Button text="Delete" onAction="#onDelete"/>
+                <Button text="Purchase" onAction="#onPurchase"/>
+                <Button text="Sell" onAction="#onSell"/>
+                <Button text="Apply Discount" onAction="#onApplyDiscount"/>
+                <Button text="Remove Discount" onAction="#onRemoveDiscount"/>
+                <Button text="Sort by Price" onAction="#onSortByPrice"/>
+            </HBox>
+        </VBox>
+    </center>
+
+    <bottom>
+        <HBox spacing="20" alignment="CENTER_RIGHT">
+            <padding>
+                <Insets top="15" right="15" bottom="15" left="15"/>
+            </padding>
+            <Label text="Capital:"/>
+            <Label fx:id="lblCapital" text="0.0"/>
+            <Label text="Income:"/>
+            <Label fx:id="lblIncome" text="0.0"/>
+            <Label text="Cost:"/>
+            <Label fx:id="lblCost" text="0.0"/>
+        </HBox>
+    </bottom>
+</BorderPane>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+
+<VBox xmlns:fx="http://javafx.com/fxml"
+      fx:controller="womenshop.controller.AddProductController"
+      alignment="CENTER"
+      spacing="15"
+      style="-fx-padding: 25; -fx-background-color: #fafafa;">
+
+    <Label fx:id="lblEditMode"
+           text="Editing Existing Product"
+           visible="false"
+           style="-fx-font-size: 18px; -fx-font-weight: bold; -fx-text-fill: #b30000;"/>
+
+    <Label fx:id="lblTitle"
+           text="Add Product"
+           style="-fx-font-size: 20px; -fx-font-weight: bold; -fx-text-fill: #2e2e2e;"/>
+
+    <GridPane hgap="12" vgap="10">
+        <padding>
+            <Insets top="10" right="20" bottom="10" left="20"/>
+        </padding>
+
+        <columnConstraints>
+            <ColumnConstraints halignment="RIGHT" minWidth="100"/>
+            <ColumnConstraints halignment="LEFT" minWidth="200"/>
+        </columnConstraints>
+
+        <Label text="Name:" GridPane.rowIndex="0" GridPane.columnIndex="0"/>
+        <TextField fx:id="txtName"
+                   GridPane.rowIndex="0" GridPane.columnIndex="1"
+                   promptText="Enter product name"/>
+
+        <Label text="Category:" GridPane.rowIndex="1" GridPane.columnIndex="0"/>
+        <ComboBox fx:id="cmbCategory"
+                  prefWidth="180"
+                  GridPane.rowIndex="1" GridPane.columnIndex="1"/>
+
+        <Label text="Buy Price:" GridPane.rowIndex="2" GridPane.columnIndex="0"/>
+        <TextField fx:id="txtBuy"
+                   GridPane.rowIndex="2" GridPane.columnIndex="1"
+                   promptText="e.g. 50.0"/>
+
+        <Label text="Sell Price:" GridPane.rowIndex="3" GridPane.columnIndex="0"/>
+        <TextField fx:id="txtSell"
+                   GridPane.rowIndex="3" GridPane.columnIndex="1"
+                   promptText="e.g. 80.0"/>
+
+        <Label text="Size:" GridPane.rowIndex="4" GridPane.columnIndex="0"/>
+        <TextField fx:id="txtSize"
+                   GridPane.rowIndex="4" GridPane.columnIndex="1"
+                   promptText="e.g. 38"/>
+
+        <Label text="Stock:" GridPane.rowIndex="5" GridPane.columnIndex="0"/>
+        <TextField fx:id="txtStock"
+                   GridPane.rowIndex="5" GridPane.columnIndex="1"
+                   promptText="e.g. 10"/>
+    </GridPane>
+
+    <HBox spacing="15" alignment="CENTER">
+        <Button fx:id="btnSave"
+                text="Save"
+                onAction="#onSave"
+                style="-fx-background-color: #4CAF50; -fx-text-fill: white; -fx-font-weight: bold; -fx-padding: 6 20;"/>
+
+        <Button text="Cancel"
+                onAction="#onCancel"
+                style="-fx-background-color: #f44336; -fx-text-fill: white; -fx-font-weight: bold; -fx-padding: 6 20;"/>
+    </HBox>
+
+</VBox>

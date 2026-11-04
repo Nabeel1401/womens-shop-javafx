@@ -196,12 +196,10 @@ The project scenario starts with **€30,000** in capital.
   </tr>
 </table>
 </tr>
-<td align="center" width="50%">
-      <img src="https://github.com/user-attachments/assets/577761de-c743-40b9-8403-a4c2ac4b011e" width="100%" alt="Deletion successful">
-      <br>
-      <em>Financial values after selling an item</em>
-    </td>
-</tr>
+<img src="https://github.com/user-attachments/assets/577761de-c743-40b9-8403-a4c2ac4b011e" width="100%" alt="Deletion successful">
+<p align="center">
+  <em>Financial values after selling an item</em>
+</p>
 
 ## Object-Oriented Design
 

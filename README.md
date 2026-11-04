@@ -85,7 +85,20 @@ Enter the quantity to purchase. The application checks the quantity and availabl
 
 Purchases increase stock and cost while reducing available capital.
 
-<img width="480" height="224" alt="image" src="https://github.com/user-attachments/assets/48047cc7-977f-400c-9887-875ac84c8f49" />
+<table>
+  <tr>
+    <td align="center" width="50%">
+      <img src="https://github.com/user-attachments/assets/0b0839c6-928b-418b-a5a7-30d67335fa01" width="100%" alt="Delete confirmation">
+      <br>
+      <em>Confirmation dialog asking the user to confirm deletion of the selected product.</em>
+    </td>
+    <td align="center" width="50%">
+      <img src="https://github.com/user-attachments/assets/a1a6938d-74f5-410d-886f-4217b151b62e" width="100%" alt="Deletion successful">
+      <br>
+      <em>Message shown after the product is deleted successfully.</em>
+    </td>
+  </tr>
+</table>
 
 
 ### 5. Sell Products

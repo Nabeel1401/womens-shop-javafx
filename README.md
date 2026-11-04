@@ -6,13 +6,6 @@ Developed as an academic project at **ESILV**, the application combines an inter
 
 **Developer:** Nabeel Ahmad KAMALUDEEN
 
-## Application Preview
-
-<!-- Insert REPORT FIGURE 5.4.2 here: main interface after a purchase.
-Save the screenshot as screenshots/overview.png -->
-
-![Women's Shop application overview](screenshots/overview.png)
-
 ## Technology Stack
 
 | Area | Technologies |
@@ -90,12 +83,12 @@ Purchases increase stock and cost while reducing available capital.
     <td align="center" width="50%">
       <img src="https://github.com/user-attachments/assets/0b0839c6-928b-418b-a5a7-30d67335fa01" width="100%" alt="Delete confirmation">
       <br>
-      <em>Confirmation dialog asking the user to confirm deletion of the selected product.</em>
+      <em>Purchase dialog asking for quantity to purchase</em>
     </td>
     <td align="center" width="50%">
       <img src="https://github.com/user-attachments/assets/a1a6938d-74f5-410d-886f-4217b151b62e" width="100%" alt="Deletion successful">
       <br>
-      <em>Message shown after the product is deleted successfully.</em>
+      <em>Product stock and financial values updated after purchase</em>
     </td>
   </tr>
 </table>
@@ -107,26 +100,30 @@ Sell items from available stock. Sales reduce stock and increase income and capi
 
 When a discount is active, the discounted price is used. Otherwise, the original sale price applies.
 
-<!-- Insert REPORT FIGURE 5.5.1 here.
-Save as screenshots/sell-dialog.png -->
-
-![Sale quantity dialog](screenshots/sell-dialog.png)
-
-<!-- Insert REPORT FIGURE 5.5.2 from SECTION 5.5 here:
-the sales confirmation, NOT the category-filter screenshot.
-Save as screenshots/sale-success.png -->
-
-![Successful sale](screenshots/sale-success.png)
+<table>
+  <tr>
+    <td align="center" width="50%">
+      <img src="https://github.com/user-attachments/assets/42172916-0443-43a7-b287-e70c4e7bbb14" width="100%" alt="Delete confirmation">
+      <br>
+      <em>Sell dialog asking for quantity to sell</em>
+    </td>
+    <td align="center" width="50%">
+      <img src="https://github.com/user-attachments/assets/47d9a5ab-3589-4406-a075-e87c6137d517" width="100%" alt="Deletion successful">
+      <br>
+      <em>Sell dialog showing the units sold</em>
+    </td>
+  </tr>
+</table>
 
 ### 6. Filter by Category
 
 Display all products or restrict the table to Clothes, Shoes or Accessories.
 
-<!-- Insert the screenshot from REPORT SECTION 5.6 here.
-Its caption is mistakenly numbered Fig 5.5.2 in the report.
-Save as screenshots/category-filter.png -->
-
-![Products filtered by category](screenshots/category-filter.png)
+<img width="1020" height="407" alt="image" src="https://github.com/user-attachments/assets/1d3d6ef9-94fd-4af3-a774-c6eb1032edb0" />
+<p align="center">
+  <em>Product table filtered by selected category
+</em>
+</p>
 
 ### 7. Apply and Remove Discounts
 
@@ -140,29 +137,39 @@ Each category has a predefined discount:
 
 Applying a discount updates the discount price without changing the original sale price. Removing it resets the discount price to zero.
 
-<!-- Insert REPORT FIGURE 5.7.1 here.
-Save as screenshots/before-discount.png -->
-
-![Product before applying a discount](screenshots/before-discount.png)
-
-<!-- Insert REPORT FIGURE 5.7.2 here.
-Save as screenshots/after-discount.png -->
-
-![Product after applying a discount](screenshots/after-discount.png)
+<table>
+  <tr>
+    <td align="center" width="50%">
+      <img src="https://github.com/user-attachments/assets/0d08dd98-545f-4b2b-b91d-a45e50fd419e" width="100%" alt="Delete confirmation">
+      <br>
+      <em>Product before applying the discount, where the discount price is zero</em>
+    </td>
+    <td align="center" width="50%">
+      <img src="https://github.com/user-attachments/assets/0e9d5933-f4d7-4c1d-93ed-d88324c44271" width="100%" alt="Deletion successful">
+      <br>
+      <em>Discount applied showing updated discount price while sale price remains unchanged/em>
+    </td>
+  </tr>
+</table>
 
 ### 8. Sort by Price
 
 Display products in ascending order of sale price.
 
-<!-- Insert REPORT FIGURE 5.8.1 here.
-Save as screenshots/before-sorting.png -->
-
-![Products before sorting](screenshots/before-sorting.png)
-
-<!-- Insert REPORT FIGURE 5.8.2 here.
-Save as screenshots/after-sorting.png -->
-
-![Products sorted by sale price](screenshots/after-sorting.png)
+<table>
+  <tr>
+    <td align="center" width="50%">
+      <img src="https://github.com/user-attachments/assets/93d87fa5-9b58-4ccb-b95c-5536aa3f4a34" width="100%" alt="Delete confirmation">
+      <br>
+      <em>Product list before sorting by price</em>
+    </td>
+    <td align="center" width="50%">
+      <img src="https://github.com/user-attachments/assets/bafe1498-0f10-4cb2-94fa-1fe28b7efd40" width="100%" alt="Deletion successful">
+      <br>
+      <em>Product list after sorting in ascending order by sale price/em>
+    </td>
+  </tr>
+</table>
 
 ### 9. Track Financial Values
 
@@ -174,20 +181,25 @@ Capital = Initial Capital + Income - Cost
 
 The project scenario starts with **€30,000** in capital.
 
-<!-- Insert REPORT FIGURE 5.9.1 here.
-Save as screenshots/financial-overview.png -->
-
-![Financial overview](screenshots/financial-overview.png)
-
-<!-- Insert REPORT FIGURE 5.9.2 here.
-Save as screenshots/financial-after-purchase.png -->
-
-![Financial values after purchasing](screenshots/financial-after-purchase.png)
-
-<!-- Insert REPORT FIGURE 5.9.3 here.
-Save as screenshots/financial-after-sale.png -->
-
-![Financial values after selling](screenshots/financial-after-sale.png)
+<table>
+  <tr>
+    <td align="center" width="50%">
+      <img src="https://github.com/user-attachments/assets/9d3b2bb8-7c5b-4452-8db4-044303bfc56d" width="100%" alt="Delete confirmation">
+      <br>
+      <em>Financial section showing capital, income, and cost on the main interface</em>
+    </td>
+    <td align="center" width="50%">
+      <img src="https://github.com/user-attachments/assets/ac822f09-34a7-4f7f-af73-136eba8256d4" width="100%" alt="Deletion successful">
+      <br>
+      <em>Financial values after purchasing an item/em>
+    </td>
+    <td align="center" width="50%">
+      <img src="https://github.com/user-attachments/assets/577761de-c743-40b9-8403-a4c2ac4b011e" width="100%" alt="Deletion successful">
+      <br>
+      <em>Financial values after selling an item/em>
+    </td>
+  </tr>
+</table>
 
 ## Object-Oriented Design
 

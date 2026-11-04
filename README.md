@@ -147,7 +147,7 @@ Applying a discount updates the discount price without changing the original sal
     <td align="center" width="50%">
       <img src="https://github.com/user-attachments/assets/0e9d5933-f4d7-4c1d-93ed-d88324c44271" width="100%" alt="Deletion successful">
       <br>
-      <em>Discount applied showing updated discount price while sale price remains unchanged/em>
+      <em>Discount applied showing updated discount price while sale price remains unchanged</em>
     </td>
   </tr>
 </table>
@@ -166,7 +166,7 @@ Display products in ascending order of sale price.
     <td align="center" width="50%">
       <img src="https://github.com/user-attachments/assets/bafe1498-0f10-4cb2-94fa-1fe28b7efd40" width="100%" alt="Deletion successful">
       <br>
-      <em>Product list after sorting in ascending order by sale price/em>
+      <em>Product list after sorting in ascending order by sale price</em>
     </td>
   </tr>
 </table>
@@ -191,15 +191,17 @@ The project scenario starts with **€30,000** in capital.
     <td align="center" width="50%">
       <img src="https://github.com/user-attachments/assets/ac822f09-34a7-4f7f-af73-136eba8256d4" width="100%" alt="Deletion successful">
       <br>
-      <em>Financial values after purchasing an item/em>
-    </td>
-    <td align="center" width="50%">
-      <img src="https://github.com/user-attachments/assets/577761de-c743-40b9-8403-a4c2ac4b011e" width="100%" alt="Deletion successful">
-      <br>
-      <em>Financial values after selling an item/em>
+      <em>Financial values after purchasing an item</em>
     </td>
   </tr>
 </table>
+</tr>
+<td align="center" width="50%">
+      <img src="https://github.com/user-attachments/assets/577761de-c743-40b9-8403-a4c2ac4b011e" width="100%" alt="Deletion successful">
+      <br>
+      <em>Financial values after selling an item</em>
+    </td>
+</tr>
 
 ## Object-Oriented Design
 

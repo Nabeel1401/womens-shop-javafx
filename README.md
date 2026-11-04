@@ -55,24 +55,18 @@ Update a product's name, purchase price and size.
 
 The category and sale price remain fixed after creation, following the assignment's business rules.
 
-<!-- Insert REPORT FIGURE 5.2 here.
-Save as screenshots/edit-product.png -->
+<img width="1014" height="465" alt="image" src="https://github.com/user-attachments/assets/c10fbe24-e5e4-46d2-8c64-ae05fcf41467" />
 
-![Edit product form](screenshots/edit-product.png)
 
 ### 3. Delete Products
 
 Products can be deleted only when their stock is zero. A confirmation dialog helps prevent accidental deletion.
 
-<!-- Insert REPORT FIGURE 5.3.1 here.
-Save as screenshots/delete-confirmation.png -->
+<img width="497" height="231" alt="image" src="https://github.com/user-attachments/assets/a2e5a0e0-43c9-4a5b-b1ce-135747c8c51d" />
 
-![Product deletion confirmation](screenshots/delete-confirmation.png)
 
-<!-- Insert REPORT FIGURE 5.3.2 here.
-Save as screenshots/delete-success.png -->
+<img width="467" height="226" alt="image" src="https://github.com/user-attachments/assets/eb2e1139-dd20-490c-96d9-48a82f22b871" />
 
-![Successful product deletion](screenshots/delete-success.png)
 
 ### 4. Purchase Stock
 
@@ -80,10 +74,8 @@ Enter the quantity to purchase. The application checks the quantity and availabl
 
 Purchases increase stock and cost while reducing available capital.
 
-<!-- Insert REPORT FIGURE 5.4.1 here.
-Save as screenshots/purchase-dialog.png -->
+<img width="480" height="224" alt="image" src="https://github.com/user-attachments/assets/48047cc7-977f-400c-9887-875ac84c8f49" />
 
-![Purchase quantity dialog](screenshots/purchase-dialog.png)
 
 ### 5. Sell Products
 

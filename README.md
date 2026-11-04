@@ -1,6 +1,6 @@
 # Women's Shop — JavaFX Inventory Management
 
-A Java desktop application for managing a women's clothing shop, built with **JavaFX, FXML, JDBC and MySQL**.
+A Java desktop application for managing a women's clothing shop, developed in **IntelliJ IDEA** using **JavaFX, FXML, JDBC and MySQL**.
 
 Developed as an academic project at **ESILV**, the application combines an interactive interface with object-oriented product models and a database-access layer. It supports three product categories: **Clothes, Shoes and Accessories**.
 

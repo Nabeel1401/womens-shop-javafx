@@ -45,7 +45,7 @@ Create products by entering their name, category, purchase price, sale price and
 New products start with **zero stock**. Stock increases through the purchase operation.
 
 <img width="1010" height="554" alt="image" src="https://github.com/user-attachments/assets/1349c061-21e5-444a-bade-ac7a83dfb0a1" />
-*Add Product window showing fields for name, category, buy price, sell price and size.*
+                Add Product window showing fields for name, category, buy price, sell price and size.
 
 ### 2. Edit Products
 

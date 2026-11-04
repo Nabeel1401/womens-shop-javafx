@@ -44,8 +44,10 @@ Create products by entering their name, category, purchase price, sale price and
 
 New products start with **zero stock**. Stock increases through the purchase operation.
 
-<img width="1010" height="554" alt="image" src="https://github.com/user-attachments/assets/e5bbae41-d7e9-499b-9f0f-a6ad609bd206" />
+<img width="1010" height="554" alt="image" src="https://github.com/user-attachments/assets/1349c061-21e5-444a-bade-ac7a83dfb0a1" />
 
+
+![Add product form](screenshots/add-product.png)
 
 ### 2. Edit Products
 
@@ -53,18 +55,24 @@ Update a product's name, purchase price and size.
 
 The category and sale price remain fixed after creation, following the assignment's business rules.
 
-<img width="1014" height="465" alt="image" src="https://github.com/user-attachments/assets/81b51a9a-fa84-4486-a1dc-04d5c5f3a252" />
+<!-- Insert REPORT FIGURE 5.2 here.
+Save as screenshots/edit-product.png -->
 
+![Edit product form](screenshots/edit-product.png)
 
 ### 3. Delete Products
 
 Products can be deleted only when their stock is zero. A confirmation dialog helps prevent accidental deletion.
 
-<img width="497" height="231" alt="image" src="https://github.com/user-attachments/assets/06155597-5fca-4783-8bdb-04c6eab8ce3f" />
+<!-- Insert REPORT FIGURE 5.3.1 here.
+Save as screenshots/delete-confirmation.png -->
 
+![Product deletion confirmation](screenshots/delete-confirmation.png)
 
-<img width="467" height="226" alt="image" src="https://github.com/user-attachments/assets/5146c39a-225a-4f0a-9990-2b2b84757ba0" />
+<!-- Insert REPORT FIGURE 5.3.2 here.
+Save as screenshots/delete-success.png -->
 
+![Successful product deletion](screenshots/delete-success.png)
 
 ### 4. Purchase Stock
 

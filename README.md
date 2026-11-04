@@ -67,12 +67,12 @@ Products can be deleted only when their stock is zero. A confirmation dialog hel
 <table>
   <tr>
     <td align="center" width="50%">
-      <img src="FIRST_IMAGE_LINK" width="100%" alt="Delete confirmation">
+      <img src="https://github.com/user-attachments/assets/118b42bc-8055-407e-b471-5ea9db8f334a" width="100%" alt="Delete confirmation">
       <br>
       <em>Confirmation dialog asking the user to confirm deletion of the selected product.</em>
     </td>
     <td align="center" width="50%">
-      <img src="SECOND_IMAGE_LINK" width="100%" alt="Deletion successful">
+      <img src="https://github.com/user-attachments/assets/2f3b6c9f-4b9d-4866-a14f-a95cd61db631" width="100%" alt="Deletion successful">
       <br>
       <em>Message shown after the product is deleted successfully.</em>
     </td>

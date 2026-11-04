@@ -64,18 +64,22 @@ The category and sale price remain fixed after creation, following the assignmen
 
 Products can be deleted only when their stock is zero. A confirmation dialog helps prevent accidental deletion.
 
-<img width="497" height="231" alt="image" src="https://github.com/user-attachments/assets/a2e5a0e0-43c9-4a5b-b1ce-135747c8c51d" />
-<p align="center">
-  <em>Confirmation dialog asking the user to
-confirm the deletion of the selected product</em>
-</p>
-
-<img width="467" height="226" alt="image" src="https://github.com/user-attachments/assets/eb2e1139-dd20-490c-96d9-48a82f22b871" />
-<p align="center">
-  <em>Message shown after the product is
-deleted successfully
-</em>
-</p>
+<table>
+  <tr>
+    <td align="center" width="50%">
+      <img src="<img width="497" height="231" alt="image" src="https://github.com/user-attachments/assets/e90a8d4b-52c4-4a82-9aae-80760972bd74" />
+" width="100%" alt="Delete confirmation">
+      <br>
+      <em>Confirmation dialog asking the user to confirm deletion of the selected product</em>
+    </td>
+    <td align="center" width="50%">
+      <img src="<img width="467" height="226" alt="image" src="https://github.com/user-attachments/assets/84b7fe3e-d1cc-44bd-9126-fb09e422b824" />
+" width="100%" alt="Deletion successful">
+      <br>
+      <em>Message shown after the product is deleted successfully</em>
+    </td>
+  </tr>
+</table>
 
 ### 4. Purchase Stock
 
